@@ -668,6 +668,10 @@ html,
   margin-bottom: 1rem;
 }
 
+.ml-40{
+  margin-left: 10rem;
+}
+
 .ml-auto{
   margin-left: auto;
 }
@@ -740,6 +744,10 @@ html,
   height: 4rem;
 }
 
+.max-h-\[288px\]{
+  max-height: 288px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -774,6 +782,10 @@ html,
 
 .w-6{
   width: 1.5rem;
+}
+
+.max-w-\[605px\]{
+  max-width: 605px;
 }
 
 .flex-1{
@@ -891,8 +903,8 @@ html,
   row-gap: 0.25rem;
 }
 
-.self-end{
-  align-self: flex-end;
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .overflow-x-hidden{
@@ -1511,6 +1523,10 @@ a.active{
 }
 
 @media (min-width: 1280px){
+  .xl\:ml-0{
+    margin-left: 0px;
+  }
+
   .xl\:grid-cols-10{
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
