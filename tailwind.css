@@ -5,18 +5,36 @@
 @tailwind utilities;
 
 @layer base {
-    html, body {
-        font-family: 'Open Sans', sans-serif;
+
+    html,
+    body {
+        font-family: 'Open Sans', sans-serif;  
         @apply antialiased bg-purple-50
+        
     }
 }
 
 .flag-select {
     @apply !pb-0
 }
+
 .flag-select button {
-    @apply h-14 border-2 border-gray-200 focus:border-primary-color bg-white rounded 
+    @apply h-14 border-2 border-gray-200 focus:border-primary-color bg-white rounded
 }
-.flag-select button > span span:nth-child(2) {
-    @apply  text-sm
+
+.flag-select button::after {
+   @apply transition-all
 }
+
+.flag-select button>span span:nth-child(2) {
+    @apply text-sm
+}
+
+a.active {
+    @apply mt-1 bg-primary-color px-5 py-3 rounded-t-md
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
+

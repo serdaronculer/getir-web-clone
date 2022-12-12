@@ -5,13 +5,15 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '600px',
-      md: '728px',
-      lg: '984px',
-      xl: '1240px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
     },
-
     extend: {
+      backgroundImage : theme => ({
+        "mobile-app-background" : "url('https://cdn.getir.com/getirweb-images/common/illustration/doodle.png')"
+      }) ,
       colors: {
         "brand-color": "#4c3398",
         "nav-text-color": "#dbdbff",
