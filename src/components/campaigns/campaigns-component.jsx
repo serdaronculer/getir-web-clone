@@ -24,7 +24,7 @@ const Campaigns = () => {
     autoplay: true,
     swipe: true,
     speed: 500,
-    autoplaySpeed: 9000,
+    autoplaySpeed: 3000,
     arrows: false,
     responsive: [
       {

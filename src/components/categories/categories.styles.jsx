@@ -8,7 +8,7 @@ py-8
 
 export const CategoriesContainerEl = tw.div`
 grid 
-grid-cols-4
+grid-cols-3
 md:grid-cols-5
 lg:grid-cols-8
 xl:grid-cols-10

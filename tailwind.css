@@ -31,7 +31,7 @@
 }
 
 a.active {
-    @apply mt-1 bg-primary-color px-5 py-3 rounded-t-md
+    @apply mt-1 bg-primary-color  rounded-t-md 
 }
 
 .ReactCollapse--collapse {

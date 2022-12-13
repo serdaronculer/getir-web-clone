@@ -4,7 +4,8 @@ import { ContainerEl } from "common-styles";
 
 export const ExtendContainerEl = tw(ContainerEl)`
 flex
-justify-between
+justify-start
+md:justify-between
 items-center
 `;
 
@@ -15,7 +16,7 @@ flex
 items-center
 h-10
 md:h-11
-gap-x-8
+md:gap-x-8
 `;
 
 export const UserSettingsEl = tw.div`
