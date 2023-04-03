@@ -1,5 +1,5 @@
 # Live Demo
 
-[Live demo](https://getir-web-clone.netlify.app/)
+[Live demo](https://getir-web-clone.vercel.app/)
 
-Note: Template, boilerplate, structure, architecture ... etc all ignored. Only css is considered in this project.
+Note: Only css is considered in this project.
